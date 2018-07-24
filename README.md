@@ -1,68 +1,7 @@
-[![Build Status](https://travis-ci.org/wenhao/jpa-spec.svg?branch=master)](https://travis-ci.org/wenhao/jpa-spec) [![Coverage Status](https://coveralls.io/repos/github/wenhao/jpa-spec/badge.svg?branch=master)](https://coveralls.io/github/wenhao/jpa-spec?branch=master) [:cn:](./README_CN.md)
+ 
 
-# jpa-spec
-
-Inspired by [Legacy Hibernate Criteria Queries], while this should be considered deprecated vs JPA APIs,
-
-but it still productive and easily understandable. Build on Spring Data JPA and simplify the dynamic query process.
-
-### Features
-
-* Compatible with Spring Data JPA and JPA 2.1 interface.
-* Equal/NotEqual/Like/NotLike/In/NotIn support multiple values, Equal/NotEqual support **Null** value.
-* Each specification support join query(left joiner).
-* Support custom specification.
-* Builder style specification creator.
-* Support pagination and sort builder.
-
-### Docs
-
-English Version:
-
-[Latest]
-
-[3.2.3]
-
-[3.2.1]
-
-[3.1.0]
-
-[3.0.0]
-
-Chinese Version:
-
-[最新]
-
-[3.2.3_cn]
-
-[3.2.1_cn]
-
-[3.1.0_cn]
-
-[3.0.0_cn]
-
-### Gradle
-
-```groovy
-repositories {
-    jcenter()
-}
-
-dependencies {
-    compile 'com.github.wenhao:jpa-spec:3.2.3'
-}
-```
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>com.github.wenhao</groupId>
-    <artifactId>jpa-spec</artifactId>
-    <version>3.2.3</version>
-</dependency>
-```
-
+ 
+ 
 ### Build
 
 ```
